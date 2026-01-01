@@ -1,7 +1,24 @@
-# Build artifacts
+# Build outputs
 bin/
-*.o
+build/
 
-# OS / editor files
+# Object files / executables
+*.o
+*.out
+*.exe
+
+# macOS
 .DS_Store
+
+# VS Code temp files
 tempCodeRunnerFile
+
+# VS Code workspace files
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Keep bin directory
+!bin/.gitkeep
+config.bat
+node_modules
