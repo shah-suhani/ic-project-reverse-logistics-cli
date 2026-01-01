@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_algorithms.h"
+#include "algorithms.h"
 
 #define INF 1e9
 #define EARTH_RADIUS 6371.0  

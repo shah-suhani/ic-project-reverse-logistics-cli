@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_cli.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_products.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_customers.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_warehouses.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_algorithms.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_return_classification.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_resale_prediction.h" 
+#include "cli.h"
+#include "products.h"
+#include "customers.h"
+#include "warehouses.h"
+#include "algorithms.h"
+#include "return_classification.h"
+#include "resale_prediction.h" 
 
 void displayMenu() {
     printf("=======================================\n");

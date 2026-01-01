@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_products.h"
+#include "products.h"
 
 int loadProducts(Product products[], const char *filename) 
 {
