@@ -1,5 +1,7 @@
+# Build artifacts
+bin/
 *.o
-*.out
-tempCodeRunnerFile
-bin/*
 
+# OS / editor files
+.DS_Store
+tempCodeRunnerFile
