@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_cli.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_products.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_customers.h"
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_warehouses.h"
+#include "cli.h"
+#include "products.h"
+#include "customers.h"
+#include "warehouses.h"
 
 #define MAX_PRODUCTS 100
 #define MAX_CUSTOMERS 100

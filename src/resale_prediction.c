@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 #include<time.h>
-#include"b24me1047_b24bb1014_b24ch1037_b24cm1066_resale_prediction.h"
+#include"resale_prediction.h"
 
 #define K 3 
 #define MAX_ITER 100  

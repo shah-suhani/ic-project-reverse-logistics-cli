@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "b24me1047_b24bb1014_b24ch1037_b24cm1066_return_classification.h"
+#include "return_classification.h"
 
 const char* classifyReturn(const char* returnReason, const char* condition) 
 {
