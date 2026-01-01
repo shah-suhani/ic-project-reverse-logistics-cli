@@ -1,0 +1,23 @@
+# Build outputs
+bin/
+build/
+
+# Object files / executables
+*.o
+*.out
+*.exe
+
+# macOS
+.DS_Store
+
+# VS Code temp
+tempCodeRunnerFile
+
+# VS Code workspace files
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+!bin/.gitkeep
