@@ -1,35 +1,45 @@
 # Reverse Logistics CLI
 
 A command-line application written in C to simulate reverse logistics workflows,
-including product returns, warehouse optimization, and resale prediction.
+including product returns, warehouse optimization, and resale price prediction.
+
+## Overview
+This project models key operations involved in reverse logistics, such as handling
+returned products, identifying optimal warehouses for processing returns, and
+estimating resale value. The application is implemented as a menu-driven CLI with
+a focus on systems programming and algorithmic problem solving.
 
 ## Features
-- Menu-driven CLI interface
-- Warehouse selection using Dijkstra’s Algorithm
+- Interactive, menu-driven CLI interface
+- Warehouse selection using Dijkstra’s shortest path algorithm
 - Return classification logic
 - Resale price prediction using K-means clustering
-- Modular C architecture with headers and source separation
-- Makefile-based build system
+- Modular C architecture with clear separation of headers and source files
+- Makefile-based build system for reproducible compilation
 
 ## Tech Stack
-- C
-- Makefile
-- macOS/Linux CLI
+- Language: C
+- Build Tool: Makefile
+- Platform: macOS / Linux (CLI-based)
 
 ## Project Structure
-
-bin/ # Compiled executable
-src/ # Source files
-include/ # Header files
-data/ # Input datasets
+```text
+bin/        # Compiled executable
+src/        # Source files
+include/    # Header files
+data/       # Input datasets
+docs/       # Project documentation (PDFs)
+Makefile    # Build configuration
+```
 
 ## How to Build and Run
-```bash
+```text
 make
 ./bin/reverse_logistics_cli
+```
 
 ## Sample Interface
-
+```text
 =======================================
  Reverse Logistics CLI Interface
 =======================================
@@ -40,10 +50,9 @@ make
 5. Classify Return
 6. Predict Resale Price (K-means Clustering)
 7. Exit
+```
 
+## Documentation
 
-## Purpose
-
-This project was built to practice systems programming concepts in C and to apply
-core algorithms such as Dijkstra’s shortest path and K-means clustering to a
-real-world inspired reverse logistics use case.
+- Project_Report.pdf
+- Project_Readme.pdf
